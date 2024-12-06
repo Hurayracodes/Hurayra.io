@@ -1,0 +1,56 @@
+/* Body Styling */
+body {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Transparent overlay */
+        url('7.png') no-repeat center center / cover; /* Background image */
+    color: #fff; /* White Text */
+    font-family: Arial, sans-serif; /* Font for the page */
+    text-align: center; /* Center align the text */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensures the height covers the viewport */
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    background-color: rgb(84, 112, 221);
+    position: fixed;
+    width: 100%;
+    padding: 8px 15px;
+    top: 0px;
+    left: 0px;
+    z-index: 10; /* Keeps the icon on top */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #0073e6;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar .home-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0px 450px;
+}
+
+.navbar .home-icon:hover {
+    color:  red;
+}
+/* Heading Styling */
+h1 {
+    font-size: 2.5em;
+    margin-top: 100px; /* Space from the top */
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2em;
+    margin-top: 16px;
+    padding: 0 20px;
+    text-align: justify center;
+    font-family: Arial, Helvetica, sans-serif;
+}

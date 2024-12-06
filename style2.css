@@ -1,0 +1,51 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+    background: 
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Transparent overlay */
+      url('m2.png') no-repeat center center/cover; /* Background image */
+    color: white;
+  }
+/* Navbar styling */
+.navbar {
+    background-color: #0073e6;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar .home-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar .home-icon:hover {
+    color:  red;
+}
+
+/* Center the content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Make the content area take up 80% of the viewport height */
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
